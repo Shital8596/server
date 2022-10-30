@@ -1,0 +1,411 @@
+.modal-body{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.product{
+  transition: all 0.5s ease;
+}
+.product:hover{
+  transform: scale(1.1);
+}
+.navbar{
+  background-color:rgb(189, 247, 189);
+}
+.carousel-item {
+  width:100%;
+  height:500px;   
+  overflow:hidden;
+  position:relative;
+}
+.carousel-item img {
+  width:100%;
+  height:500px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  margin-bottom: 35%;
+}
+.outerDiv{
+  width: 100%;
+  color: rgb(72, 76, 72);
+  margin: 0px;
+  background-color:rgb(189, 247, 189);
+}
+.productDiv{
+  background-color: white;
+}
+.rightNav .logoImg{
+  display: none;
+}
+.navDiv .logoImg{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.navDiv .logoImg img{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.productTitle{
+  color: rgb(6, 118, 6);
+  font-size:50px ;
+  font-weight: 500;
+}
+.navbar-nav .nav-link, .navbar-nav .show>.nav-link {
+  color: rgb(21, 115, 21);
+  font-size: larger;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link:hover{
+  color: rgb(180, 164, 164);
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: cursive;
+  color:rgb(6, 118, 6); ;
+}
+.sectionDiv{
+  color:rgb(21, 115, 21);
+}
+.footer{
+  height: 340px;
+}
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  padding: 0;
+  margin: 0;
+  width: 70%;
+}
+input:focus {
+  border-color: green
+}
+.reviewPara p {
+  margin-top: 7px;
+  color: rgb(134, 131, 131);
+}
+.reviewPara{
+  display: flex;
+  gap: 10px;
+}
+.spanReviewArea{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+  padding: 3px 13px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: rgb(147, 150, 149);
+}
+.S{
+  background-color: rgb(220, 88, 88);
+}
+.P{
+  background-color: rgb(45, 80, 81);
+}
+.addComment{
+  display: flex;
+  width: min(90%, 840px);
+  position: relative;
+  left: 20%;
+  gap: 20px;
+  justify-content: space-between;
+}
+.spanTextArea{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+  padding: 0.4% 1.4%;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: blueviolet;
+}
+.sendBtn{
+  width: 10%;
+  padding:5px 10px;
+  border: none;
+  margin: 5px;
+  background-color: lightgray;
+  color: rgb(77, 74, 74);
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btnDiv{
+  width: 74%;
+  display: flex;
+  justify-content: end;
+}
+.btnDiv :nth-child(2){
+  margin-right: 0px;
+}
+.reviewTitle{
+  margin-bottom: 30px;
+  color: rgb(6, 118, 6);
+  font-size:30px ;
+  font-weight: 500;
+}
+.rightNavPart{
+  display: flex;
+}
+.rightNavPart .avtar{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.rightNavPart .avtar2{
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 10px;
+    background-color: #9341ea;
+}
+
+.signInDiv{
+  width: 30%;
+  padding: 20px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: 40px auto;
+  height: 80vh;
+  background-color: lightgreen;
+}
+.title{
+  text-align: center;
+  color: rgb(8, 145, 8);
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* Header section  */
+
+
+.navbar>.container-fluid{
+  justify-content:flex-start;
+  flex: 1 1;
+}
+.nav-item{
+  flex: 1;
+  width: 100%;
+}
+.rightNav .searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.searchBar input{
+  width:100%;
+  height: 38px;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 10px 0px 10px 10px;
+}
+
+.searchBar .search_icon{
+  background-color: #49dc92;
+  height: 38px;
+  width: 40px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  cursor: pointer;
+}
+.nav_searchbaar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navDiv .searchBar{
+  display: none;
+}
+.rightNav{
+  width: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.rightNav .search-item{
+  width: 100%;
+}
+
+.btn{
+  border: none;
+  font-size: 18px;
+}
+
+.searchBar .extraSearch{
+  position: absolute;
+  background-color: rgb(207, 240, 207);
+  color: #000;
+  top: 73%;
+  right: 31%;
+  width: 28%;
+  z-index: 10;
+}
+
+.searchBar .extraSearch a{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.searchBar .extraSearch a:hover{
+  background: whitesmoke;
+}
+.circle{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #49dc92;
+}
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width:1480px) {
+  nav{
+    width: 100%;
+  }
+  .btn{
+    border: none;
+  }
+  .rightNavPart .avtar2 {
+    margin-top: 10px;
+  }
+}
+
+ 
+@media screen and (max-width:1320px) {
+  .navbar>.container-fluid{
+    flex-direction: column;
+  }
+  
+  .searchBar input{
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .navbar>.container-fluid{
+    flex-direction: row;
+  }
+  .navbar{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item{
+    text-align: center;
+    width: 100%;
+  }
+  .navDiv .logoImg{
+    display: none;
+  }
+  .rightNav{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .rightNav .logoImg{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 1%;
+  }
+  .rightNav .logoImg img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+  }
+  .searchBar input{
+    width: 100%;
+  }
+  .nav-link:hover{
+    background-color: whitesmoke;
+  }
+  .searchBar .extraSearch{
+    top: 77%;
+    left: 2%;
+    width: 42%;
+    font-size: 100%;
+  }
+  .row{
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .rightNav .searchBar{
+    display: none;
+  }
+  .navDiv .searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+    width: 180%;
+    margin-left:23% ;
+  }
+  .navbar>.container-fluid{
+    flex: 1 1;
+  }
+  .searchBar .extraSearch{
+    top: 93%;
+    left: 10%;
+    width: 56%;
+    font-size: 100%;
+  }
+  
+  .spanTextArea {
+    padding: 1.1% 3.6%;
+  }
+  .sendBtn {
+    width: 20%;
+    padding: 0 0;
+  }
+  .footer{
+    height: 100vh;
+  }
+  .py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  }
+  .my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+  }
+}
